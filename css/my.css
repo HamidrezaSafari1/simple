@@ -1,0 +1,32 @@
+.tabbable-line{
+    align-content: center;
+}
+li.active {
+    border-bottom: 4px solid #f3565d ;
+    position: relative;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 4px solid #fbcdcf;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: #333333;
+    text-decoration: none;
+}
+.tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: #737373;
+    text-decoration: none;
+    
+}
+.tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+}
+h2{
+    margin-top: 20px;
+}
+.tabbable-line > .nav-tabs > li{
+    margin-right: 40%;
+}
